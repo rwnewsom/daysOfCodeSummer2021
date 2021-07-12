@@ -16,19 +16,16 @@ namespace DaysOfCode
         /// <returns>value of the ticket</returns>
         public int ticketValue(int a, int b, int c)
         {
-            int winnings = 0;
-            if (a == b)
+            if ((a == b) && (b==c))
             {
-                if (a == c)
-                {
-                    winnings = 20;
-                    return winnings;
-                }
-                winnings = 10;
-                return winnings;
+                return 20;
+            }
+            else if((a==b) || (b==c) || (a == c))
+            {
+                return 10;
             }
 
-            return winnings;
+            return 0;
         }
     }
 }
