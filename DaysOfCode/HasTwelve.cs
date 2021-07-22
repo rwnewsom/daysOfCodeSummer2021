@@ -6,6 +6,11 @@ namespace DaysOfCode
 {
     public class HasTwelve
     {
+        /// <summary>
+        /// Given an array of ints, return true if there is a 1 in the array with a 2 somewhere later in the array.
+        /// </summary>
+        /// <param name="nums">An integer array</param>
+        /// <returns>a boolean</returns>
         public bool hasOneThenTwo(int[] nums)
         {
             bool foundOne = false;

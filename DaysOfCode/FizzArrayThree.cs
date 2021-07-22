@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 
 namespace DaysOfCode
-{ //TODO: TEST THIS!
+{ //TODONE: TEST THIS!
     public class FizzArrayThree
     {
         /// <summary>

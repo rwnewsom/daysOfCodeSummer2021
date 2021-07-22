@@ -11,7 +11,7 @@ namespace DaysOfCode
         /// </summary>
         /// <param name="a">The first integer array</param>
         /// <param name="b">The second integer array</param>
-        /// <returns></returns>
+        /// <returns>An integer</returns>
         public int StartOneCount(int[] a, int[] b)
         {
             int count = 0;

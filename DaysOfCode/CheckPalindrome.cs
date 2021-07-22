@@ -6,6 +6,11 @@ namespace DaysOfCode
 {
     public class CheckPalindrome //TODO: make input lower case
     {
+        /// <summary>
+        /// determines if a given string is a palindrome e.g. 'radar', 'rotor'
+        /// </summary>
+        /// <param name="inputString">String to be evaluated</param>
+        /// <returns>a boolean</returns>
         public bool isPalindrome(string inputString)
         {
             int min = 0;
