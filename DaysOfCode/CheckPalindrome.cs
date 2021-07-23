@@ -11,7 +11,7 @@ namespace DaysOfCode
         /// </summary>
         /// <param name="inputString">String to be evaluated</param>
         /// <returns>a boolean</returns>
-        public bool isPalindrome(string inputString)
+        public bool IsPalindrome(string inputString)
         {
             int min = 0;
             int max = inputString.Length - 1;
@@ -34,7 +34,7 @@ namespace DaysOfCode
 
         }
 
-        public bool recursivePalindromeChecker(string inputString)
+        public bool RecursivePalindromeChecker(string inputString)
         {
             if (inputString.Length <= 1)
             {
@@ -46,7 +46,7 @@ namespace DaysOfCode
             }
             else
             {
-                return recursivePalindromeChecker(inputString[1..^1]);
+                return RecursivePalindromeChecker(inputString[1..^1]);
             }
 
         }

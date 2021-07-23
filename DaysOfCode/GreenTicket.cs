@@ -14,7 +14,7 @@ namespace DaysOfCode
         /// <param name="b">second lotto number</param>
         /// <param name="c">third lotto number</param>
         /// <returns>value of the ticket</returns>
-        public int ticketValue(int a, int b, int c)
+        public int TicketValue(int a, int b, int c)
         {
             if ((a == b) && (b==c))
             {

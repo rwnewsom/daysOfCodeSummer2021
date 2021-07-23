@@ -13,7 +13,7 @@ namespace DaysOfCode.Tests
         {
             CheckPalindrome checkPalindrome = new CheckPalindrome();
             string input = "aabaa";
-            bool result = checkPalindrome.isPalindrome(input);
+            bool result = checkPalindrome.IsPalindrome(input);
 
             Assert.AreEqual(true, result);
         }
@@ -23,7 +23,7 @@ namespace DaysOfCode.Tests
         {
             CheckPalindrome checkPalindrome = new CheckPalindrome();
             string input = "syzygy";
-            bool result = checkPalindrome.isPalindrome(input);
+            bool result = checkPalindrome.IsPalindrome(input);
 
             Assert.AreEqual(false, result);
         }
@@ -34,7 +34,7 @@ namespace DaysOfCode.Tests
         {
             CheckPalindrome checkPalindrome = new CheckPalindrome();
             string input = "abac";
-            bool result = checkPalindrome.recursivePalindromeChecker(input);
+            bool result = checkPalindrome.RecursivePalindromeChecker(input);
 
             Assert.AreEqual(false, result);
         }
@@ -44,7 +44,7 @@ namespace DaysOfCode.Tests
         {
             CheckPalindrome checkPalindrome = new CheckPalindrome();
             string input = "radar";
-            bool result = checkPalindrome.recursivePalindromeChecker(input);
+            bool result = checkPalindrome.RecursivePalindromeChecker(input);
 
             Assert.AreEqual(true, result);
         }

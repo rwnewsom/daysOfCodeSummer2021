@@ -13,7 +13,7 @@ namespace DaysOfCode.Tests
         {            
             HasTwelve hasTwelve = new HasTwelve();
             int[] nums = { 1, 3, 5, 2 };
-            bool result = hasTwelve.hasOneThenTwo(nums);
+            bool result = hasTwelve.HasOneThenTwo(nums);
             Assert.AreEqual(true, result);
         }
         [TestMethod]
@@ -21,7 +21,7 @@ namespace DaysOfCode.Tests
         {
             HasTwelve hasTwelve = new HasTwelve();
             int[] nums = { 2, 3, 5, 1 };
-            bool result = hasTwelve.hasOneThenTwo(nums);
+            bool result = hasTwelve.HasOneThenTwo(nums);
             Assert.AreEqual(false, result);
         }
 
@@ -30,7 +30,7 @@ namespace DaysOfCode.Tests
         {
             HasTwelve hasTwelve = new HasTwelve();
             int[] nums = { 8, 3, 5, 9 };
-            bool result = hasTwelve.hasOneThenTwo(nums);
+            bool result = hasTwelve.HasOneThenTwo(nums);
             Assert.AreEqual(false, result);
         }
 
@@ -39,7 +39,7 @@ namespace DaysOfCode.Tests
         {
             HasTwelve hasTwelve = new HasTwelve();
             int[] nums = { 8, 1, 5, 9 };
-            bool result = hasTwelve.hasOneThenTwo(nums);
+            bool result = hasTwelve.HasOneThenTwo(nums);
             Assert.AreEqual(false, result);
         }
     }

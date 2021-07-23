@@ -12,7 +12,7 @@ namespace DaysOfCode.Tests
         public void FiveSixSevenShouldReturnZero()
         {
             GreenTicket greenTicket = new GreenTicket();
-            int result = greenTicket.ticketValue(5, 6, 7);
+            int result = greenTicket.TicketValue(5, 6, 7);
             Assert.AreEqual(0, result);
         }
 
@@ -20,7 +20,7 @@ namespace DaysOfCode.Tests
         public void FiveSixFiveShouldReturnTen()
         {
             GreenTicket greenTicket = new GreenTicket();
-            int result = greenTicket.ticketValue(5, 6, 5);
+            int result = greenTicket.TicketValue(5, 6, 5);
             Assert.AreEqual(10, result);
         }
 
@@ -28,7 +28,7 @@ namespace DaysOfCode.Tests
         public void FiveFiveFiveShouldReturnTwenty()
         {
             GreenTicket greenTicket = new GreenTicket();
-            int result = greenTicket.ticketValue(5, 5, 5);
+            int result = greenTicket.TicketValue(5, 5, 5);
             Assert.AreEqual(20, result);
         }
 

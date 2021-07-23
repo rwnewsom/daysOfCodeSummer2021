@@ -11,7 +11,7 @@ namespace DaysOfCode
         /// </summary>
         /// <param name="nums">An integer array</param>
         /// <returns>a boolean</returns>
-        public bool hasOneThenTwo(int[] nums)
+        public bool HasOneThenTwo(int[] nums)
         {
             bool foundOne = false;
             foreach (int num in nums)
