@@ -11,6 +11,14 @@ namespace DaysOfCode
     {
         public void ScratchPad()
         {
+            Fibonacci fibonacci = new Fibonacci();
+
+            List<int> fibSequence = fibonacci.FibSequence(300);
+
+            foreach (int i in fibSequence)
+            {
+                Console.WriteLine(i);
+            }
             
         }
     }
